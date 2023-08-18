@@ -50,7 +50,7 @@ if ENV['RCT_NEW_ARCH_ENABLED'] == '1' then
   }
 
   s.dependency "React-Codegen"
-  s.dependency "RCT-Folly", folly_version
+  s.dependency "RCT-Folly"#, folly_version
   s.dependency "RCTRequired"
   s.dependency "RCTTypeSafety"
   s.dependency "ReactCommon/turbomodule/core"
